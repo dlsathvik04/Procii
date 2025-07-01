@@ -1,0 +1,10 @@
+[package]
+name = "procii"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["image", "advanced", "canvas"] }
+image = "0.25.6"
+rfd = "0.15.3"
+tokio = { version = "1.45.1", features = ["full"] }
